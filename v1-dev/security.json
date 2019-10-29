@@ -207,7 +207,7 @@
     "purpose": {
       "description": "The purpose for which the security is being held.",
       "type": "string",
-      "enum": ["investment", "collateral", "reference", "derivative_collateral", "other"]
+      "enum": ["investment", "collateral", "reference", "derivative_collateral", "underwriting","other"]
     },
     "rate": {
       "description": "The full interest rate applied to the security notional in percentage terms. Note that this therefore includes the base_rate (ie. not the spread).",

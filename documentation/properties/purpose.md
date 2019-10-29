@@ -115,6 +115,12 @@ The **other** enum value can be used when none of the other enum values apply or
 ### derivative_collateral
 Defined in accordance with Article 30(1) of the [LCR][lcr] regulation:
 > "collateral posted for contracts listed in [Annex II of Regulation (EU) No. 575/2013](http://eur-lex.europa.eu/legal-content/en/TXT/?uri=celex%3A32013R0575) and credit derivatives".
+### underwriting
+(for the purposes of [BIPRU 7](https://www.handbook.fca.org.uk/handbook/BIPRU/7/10.html?date=2019-10-29#D1345) (Market risk)) to undertake a firm commitment to buy a specified quantity of new securities on a given date and at a given price if no other has purchased or acquired them; and so that:
+(a) new is defined in BIPRU 7.8.12R (New securities);
+(b) a firm still underwrites securities at a time before the exact quantity of securities being underwritten or their price has been determined if it is committed at that time to underwrite them when the quantity and price is fixed;
+(c) (in the case of provisions of the Handbook that distinguish between underwriting and sub- underwriting) underwriting does not include sub-underwriting; and
+(d) (in any other case) underwriting includes sub-underwriting.
 
 ### reference
 Use this enumeration value to refer to securities which are underlyings of derivative positions (e.g. bond futures).
