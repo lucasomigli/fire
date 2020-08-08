@@ -116,10 +116,8 @@ def include_embedded_schema_properties(schema):
             inherited_schema = schema["allOf"][i]["$ref"].split("/")[-1]
             f = open("v1-dev/" + inherited_schema, "r")
             inherited_schema = json.load(f)
-            schema["properties"] = dict(
-                schema["properties"].items() +
-                inherited_schema["properties"].items()
-            )
+            schema["properties"] = dict(schema["properties"].items())
+            schema["properties"].update(inherited_schema["properties"].items())
 
     except KeyError:
         pass
